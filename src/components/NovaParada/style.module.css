@@ -1,0 +1,89 @@
+
+
+.span_style {
+    margin: auto;
+    color: rgb(89, 148, 59);
+    padding: 1em 30px 0 0;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px -6px;
+    display: flex;
+  }
+  
+
+.accordion_style {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.form_style {
+    flex-direction: column !important;
+}
+
+.accordion_style label {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    display: flex;
+}
+
+
+.accordion_style span {
+    height: 40px;
+    padding-top: .5em;
+    text-align: initial;
+}
+
+.accordion_style {
+    width: auto;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    display: flex;
+}
+
+.label_style {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.5em;
+    gap: 1rem;
+  }
+
+.label_style input, select, span {
+    width: 250px;
+    height: 40px;
+    font-size: 14pt;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn_styles {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 21%;
+    text-decoration: none;
+    border: 1px solid #59943B;
+    background-color: #59943B ;
+    color: #ffffff;
+    border-radius: 0.5em;
+    justify-content: initial;
+}
+
+.btn_styles:hover {
+    border: 1px solid rgb(50, 82, 33);
+    background-color:   #6fbb4a;
+    color: #ffffff;
+}

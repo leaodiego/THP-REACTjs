@@ -1,0 +1,140 @@
+
+.header_style {
+    width: auto;
+    display: flex;
+}
+
+.span_style {
+    width: auto;
+    
+    margin: auto;
+    color: rgb(89, 148, 59);
+    padding-right: 30px;
+    padding-top: 1em;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    border: none;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px -6px;
+    justify-content: space-between;
+}
+
+.table_style {
+    width: auto;
+    margin: auto;
+    color: rgb(89, 148, 59);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: -30px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    border: none;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px -6px;
+    justify-content: space-between;
+}
+
+.accordion_style {
+    width: auto;
+    height: 90px;
+    display: flex;
+}
+
+.accordion_style_style table{
+    width: 1500px;
+    margin: auto;
+    display: block;
+}
+
+.accordion_style label {
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    display: block;
+}
+
+
+.accordion_style span {
+    width: auto !important;
+    height: 25px;
+    font-size: small;
+    display: flex !important;
+    justify-content: center;
+    text-align: center;
+    padding-top: .5em;
+}
+
+
+
+.label_style {
+    width: 150px;
+    font-size: small;
+}
+
+.btn_styles {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    margin-right: 10px;
+    margin-top: 1.5em;
+    text-decoration: none;
+    border: 1px solid #59943B;
+    background-color: #59943B ;
+    color: #ffffff;
+    border-radius: 0.5em;
+    justify-content: initial;
+}
+
+.btn_styles:hover {
+    border: 1px solid rgb(50, 82, 33);
+    background-color:   #6fbb4a;
+    color: #ffffff;
+}
+
+.button_Styles {
+    max-width: auto;      /* mesma largura do conteúdo */
+    margin: auto;   ; /* padding igual às caixas de conteúdo */
+    display: flex;
+    justify-content: flex-start; /* garante alinhamento à esquerda */
+}
+
+
+.button {
+    width: auto;
+    height: 50px;
+    padding-top: 0.5em;
+    padding-left: 0;         /* Alinha à esquerda */
+    border: none;
+    background-color: transparent;
+    text-align: left;        /* Garante alinhamento à esquerda */
+    justify-content: flex-start; /* (se estiver usando flex) */
+}
+
+.spanAutoWidth {
+  width: 171px !important;
+}
+
+
+.icon_group {
+    width: auto !important;
+    display: flex !important;
+    gap: 10px; /* Espaço entre os ícones */
+    align-items: center;
+    margin-top: 5px;
+    flex-direction: initial;
+}
+
+
+.icon_style {
+    text-decoration: none;
+    color: #59943B;
+}
+
+
